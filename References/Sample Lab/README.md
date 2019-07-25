@@ -2,6 +2,8 @@
 
 (description and end goal)
 
+(required knowledge)
+
 ## 1. Details
 
 (specifications and details)
@@ -11,3 +13,4 @@
 (additional challenge)
 
 ## 3. Solution Links
+
