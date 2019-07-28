@@ -1,5 +1,7 @@
 # To Do List Hints
 
+[Go Back to Lab Description](./README.md)
+
 ## 1.  `Finish` Parsing
 
 When the user asks to finish a task, they give you an index as well. Identifying the command and parsing out the index can be done with substrings.
@@ -85,3 +87,5 @@ When the program is opened, prompt them for a user name and load the coorespondi
 userName = input("Username: ")
 outFile = open(userName, "w")
 ```
+
+[Go Back to Lab Description](./README.md)
