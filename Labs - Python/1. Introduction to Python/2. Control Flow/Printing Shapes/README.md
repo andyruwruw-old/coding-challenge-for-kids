@@ -2,6 +2,8 @@
 
 Print the following texts as accuractly as you can using `for` loops!
 
+Uses: For Loops, If Statements, String Concatenation
+
 ---
 ## 1. Further Challenge
 
