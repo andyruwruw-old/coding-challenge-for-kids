@@ -19,6 +19,7 @@ A collection of labs and solutions following the STEM4Kids curriculum.
     3. [Advanced Python](./Labs_Python/3._Advanced_Python)
         1. [Data Structures](./Labs_Python/3._Advanced_Python/1._Data_Structures)
         2. [Input and Output Files](./Labs_Python/3._Advanced_Python/2._Input_and_Output_Files)
+            1. [To Do List](./Labs_Python/3._Advanced_Python/2._Input_and_Output_Files/To_Do_List/README.md)
         3. [Advanced Functions](./Labs_Python/3._Advanced_Python/3._Advanced_Functions)
         4. [Modules](./Labs_Python/3._Advanced_Python/4._Modules)
 2. Labs | [Java](./Labs_Java)
