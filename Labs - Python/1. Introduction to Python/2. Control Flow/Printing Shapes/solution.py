@@ -151,26 +151,103 @@ def hangingByAThread(num):
 # Problem 13: Vertical Counting
 
 def verticalCounting(num):
-    for i in range(0, num):
+    for i in range(1, num + 1):
         string = ""
         for j in range(0, i):
-            string += str(i + (num * j))
+            addnum = 0
+            colnum = num
+            for k in range(0, j):
+                addnum += colnum
+                colnum -= 1
+            printnum = (i - j) + addnum
+            string += str(printnum)
             string += " "
         print(string)
 
 
 # Problem 14: Even Diamond
 
+import math
+
 def evenDiamond(num):
+    ## Requires Odd Number
+    if (num % 2 == 0): 
+        return 0
+    numbers = 1
+    rate = 2
+    mid = math.ceil(num / 2)
+    for i in range(0, num):
+        string = ""
+        for j in range(0, num - numbers):
+            string += " "
+        for j in range(0, numbers):
+            string += str(j + 1)
+            string += " "
+        print(string)
+        if i == mid - 1:
+            rate = -rate
+        numbers += rate
 
 # Problem 15: Even Hourglass
 
+import math
+
 def evenHourglass(num):
+    ## Requires Odd Number
+    if (num % 2 == 0): 
+        return 0
+    numbers = num
+    rate = -2
+    mid = math.ceil(num / 2)
+    for i in range(0, num):
+        string = ""
+        for j in range(0, num - numbers):
+            string += " "
+        for j in range(0, numbers):
+            string += str(j + 1)
+            string += " "
+        print(string)
+        if i == mid - 1:
+            rate = -rate
+        numbers += rate
 
 # Problem 16: Offset Diamond
 
+import math
+
 def offsetDiamond(num):
+    numbers = 1
+    rate = 1
+    mid = num - 1
+    for i in range(0, num * 2 - 1):
+        string = ""
+        for j in range(0, num - numbers):
+            string += " "
+        for j in range(0, numbers):
+            string += str(j + 1)
+            string += " "
+        print(string)
+        if i == mid:
+            rate = -rate
+        numbers += rate
 
 # Problem 17: Offset Hourglass
+import math
 
 def offsetHourglass(num):
+    numbers = num
+    rate = -1
+    mid = num - 1
+    for i in range(0, num * 2 - 1):
+        string = ""
+        for j in range(0, num - numbers):
+            string += " "
+        for j in range(0, numbers):
+            string += str(j + 1)
+            string += " "
+        print(string)
+        if i == mid:
+            rate = -rate
+        numbers += rate
+
+

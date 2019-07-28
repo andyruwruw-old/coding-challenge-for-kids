@@ -235,19 +235,19 @@ Allow the user to enter any number, and create the pattern using their input.
 ---
 ## Problem 17: Offset Hourglass
 ```
-1 2 3 4 5 6 7
- 2 3 4 5 6 7
-  3 4 5 6 7
-   4 5 6 7
-    5 6 7
-     6 7
-      7
-     6 7
-    5 6 7
-   4 5 6 7
-  3 4 5 6 7
- 2 3 4 5 6 7
-1 2 3 4 5 6 7
+1 2 3 4 5 6 7 
+ 1 2 3 4 5 6 
+  1 2 3 4 5 
+   1 2 3 4 
+    1 2 3 
+     1 2 
+      1 
+     1 2 
+    1 2 3 
+   1 2 3 4 
+  1 2 3 4 5 
+ 1 2 3 4 5 6 
+1 2 3 4 5 6 7 
 ```
 ---
 
