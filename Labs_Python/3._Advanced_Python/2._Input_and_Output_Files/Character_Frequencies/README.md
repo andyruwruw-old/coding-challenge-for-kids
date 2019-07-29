@@ -1,4 +1,4 @@
-# Censored Files
+# Character Frequencies
 
 An application which takes in an input file and finds the frequency of every unique character.
 
