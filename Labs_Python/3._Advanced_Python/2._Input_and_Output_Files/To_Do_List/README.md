@@ -39,6 +39,8 @@ When the program is first run, before it prompts for a command, it should look t
 
 Prewritten save and load functions can be found the [Need a Hint](./HINT.md) document.
 
+Uses: Objects, Object Built-In Functions, File Writing, Functions
+
 ---
 
 ## 2. Sample Output
