@@ -1,5 +1,7 @@
 # Sonar Treasure Hunt Print Functions
 
+[Go Back to Lab Description](./README.md)
+
 ## Getting Row from Board as String
 ```
 def getRow(board, row):
@@ -92,3 +94,5 @@ Press enter to continue...''')
     input()
     print()
 ```
+
+[Go Back to Lab Description](./README.md)
