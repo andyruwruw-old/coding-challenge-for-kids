@@ -2,6 +2,8 @@
 
 As an intro to classes, have the students implement a hiker with the described methods.
 
+---
+
 ## 1. Details
 
 Each hiker should posess the following traits inicialized by the constructor.

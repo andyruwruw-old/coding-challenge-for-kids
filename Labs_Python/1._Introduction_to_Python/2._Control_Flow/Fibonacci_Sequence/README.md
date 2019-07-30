@@ -17,5 +17,5 @@ Uses: For-Loops
 
 ---
 
-## 3. Solution Links
+## 2. Solution Links
 [Solution](./solution.py)

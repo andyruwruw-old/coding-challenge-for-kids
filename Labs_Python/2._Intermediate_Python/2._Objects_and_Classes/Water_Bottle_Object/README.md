@@ -2,6 +2,8 @@
 
 As an intro to classes, have the students implement a water bottle with the described methods.
 
+---
+
 ## 1. Details
 
 Each waterbottle should posess the following traits inicialized by the constructor.

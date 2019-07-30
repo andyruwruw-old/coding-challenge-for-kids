@@ -75,7 +75,7 @@ Have the program display the frequencies in order from most to least common.
 
 ---
 
-## 3. Solution Links
+## 4. Solution Links
 
 [Text File](./input.txt)
 

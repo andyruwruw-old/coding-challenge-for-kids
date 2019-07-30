@@ -25,7 +25,7 @@ Premade functions are available here for printing purposes:
 
 ---
 
-## 3. Sample Output
+## 2. Sample Output
 
 ```
 S O N A R !
@@ -138,6 +138,6 @@ Thanks for playing!
 
 ---
 
-## 4. Solution Links
+## 3. Solution Links
 
 [Solution](./solution.py)
