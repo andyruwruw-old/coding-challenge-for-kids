@@ -12,6 +12,7 @@ For numbers which are multiples of both three and five print “FizzBuzz”.
 
 Uses: For Loops, If Statements
 
+
 ---
 
 ## 2. Further Challenges
