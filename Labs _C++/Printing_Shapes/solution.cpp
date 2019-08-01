@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
 // Problem 1: The Staircase
 
 void theStaircase(int num)
@@ -16,248 +20,369 @@ void theStaircase(int num)
 
 void flipIt(int num)
 {
-    for (unsigned int i = 0; i < num + 1; i++)
-    {
-        for (unsigned int j = 1; j < num + 1 - i; j++)
-        {
-            cout << j << " ";
-        }
-        cout << endl;
-    }
+	for (unsigned int i = 0; i < num; i++)
+	{
+		for (unsigned int j = 1; j < num + 1 - i; j++)
+		{
+			cout << j << " ";
+		}
+		cout << endl;
+	}
 }
 
 // Problem 3: Backwards Now
 
-def backwardsNow(num):
-    for (unsigned int i = 0; i < (1, num + 1):
-        string = ""
-        for j in range(0, i):
-            string += str(num - j) + " "
-        print(string) 
+void backwardsNow(int num) 
+{
+	for (unsigned int i = 1; i < num + 1; i++) 
+	{
+		for (unsigned int j = 0; j < i; j++) 
+		{
+			cout << (num - j) << " ";
+		}
+		cout << endl;
+	}
+}
 
 // Problem 4: Flip-It Backwards
 
-def flipItBackwards(num):
-    for (unsigned int i = 0; i < (1, num + 1):
-        string = ""
-        for j in range(0, (num - i + 1)):
-            string += str(num - j) + " "
-        print(string) 
+void flipItBackwards(int num) 
+{
+	for (unsigned int i = 1; i < num + 1; i++) 
+	{
+		for (unsigned int j = 0; j < (num - i + 1); j++) 
+		{
+			cout << (num - j) << " ";
+		}
+		cout << endl;
+	}
+}
 
 // Problem 5: Sharp Bump
 
-def sharpBump(num):
-    for (unsigned int i = 0; i < (0, num + 1):
-        string = ""
-        for j in range(1, i + 1):
-            string += str(j) + " "
-        print(string) 
-    for (unsigned int i = 0; i < (0, num):
-        string = ""
-        for j in range(1, (num - i)):
-            string += str(j) + " "
-        print(string)
+void sharpBump(int num) 
+{
+	for (unsigned int i = 1; i < (num + 1); i++) 
+	{
+		for (unsigned int j = 1; j < (i + 1); j++) 
+		{
+			cout << j << " ";
+		}
+		cout << endl;
+	}
+	for (unsigned int i = 0; i < num - 1; i++)
+	{
+		for (unsigned int j = 1; j < (num - i); j++)
+		{
+			cout << j << " ";
+		}
+		cout << endl;
+	}
+}
 
 // Problem 6: Pointy Corner
 
-def pointyCorner(num):
-    for (unsigned int i = 0; i < (0, num):
-        string = ""
-        for j in range(1, (num + 1 - i)):
-            string += str(j) + " "
-        print(string)
-    for (unsigned int i = 0; i < (2, num + 1):
-        string = ""
-        for j in range(1, i + 1):
-            string += str(j) + " "
-        print(string) 
+void pointyCorner(int num) 
+{
+	for (unsigned int i = 0; i < num; i++)
+	{
+		for (unsigned int j = 1; j < (num - i + 1); j++)
+		{
+			cout << j << " ";
+		}
+		cout << endl;
+	}
+	for (unsigned int i = 2; i < (num + 1); i++)
+	{
+		for (unsigned int j = 1; j < (i + 1); j++)
+		{
+			cout << j << " ";
+		}
+		cout << endl;
+	}
+}
 
 // Problem 7: If and Then
 
-def ifAndThen(num):
-    for (unsigned int i = 0; i < (0, num):
-        string = ""
-        for j in range(0, num):
-            if i == j:
-                string += str(j)
-            else:
-                string += "0"
-        print(string)
+void ifAndThen(int num) 
+{
+	for (unsigned int i = 0; i < num; i++) 
+	{
+		for (unsigned int j = 0; j < num; j++) {
+			if (i == j) 
+			{
+				cout << j;
+			}
+			else
+			{
+				cout << "0";
+			}
+		}
+		cout << endl;
+	}
+}
 
 // Problem 8: Binary Staircase
 
-def binaryStaircase(num):
-    for (unsigned int i = 0; i < (0, num + 1):
-        string = ""
-        switch = True
-        for j in range(1, i + 1):
-            if switch:
-                string += "1"
-            else:
-                string += "0"
-            switch = not switch
-        print(string)
+void binaryStaircase(int num)
+{
+	for (unsigned int i = 1; i < num + 1; i++) 
+	{
+		bool toggle = true;
+		for (unsigned int j = 0; j < i; j++) {
+			if (toggle) 
+			{
+				cout << "1";
+			}
+			else
+			{
+				cout << "0";
+			}
+			toggle = !toggle;
+		}
+		cout << endl;
+	}
+}
             
 
 // Problem 9: Binary Block
 
-def binaryBlock(num):
-    switch = True
-    for (unsigned int i = 0; i < (0, num + 1):
-        string = ""
-        for j in range(0, num):
-            if switch:
-                string += "1"
-            else:
-                string += "0"
-            switch = not switch
-        print(string)
+void binaryBlock(int num)
+{
+	bool toggle = true;
+	for (unsigned int i = 1; i < num + 1; i++) 
+	{
+		for (unsigned int j = 0; j < num; j++) {
+			if (toggle) 
+			{
+				cout << "1";
+			}
+			else
+			{
+				cout << "0";
+			}
+			toggle = !toggle;
+		}
+		cout << endl;
+	}
+}
 
 // Problem 10: Strange Layers
 
-def strangeLayers(num):
-    for (unsigned int i = 0; i < (0, num):
-        string = ""
-        for j in range(0, num):
-            if (num - j <= i + 1):
-                string += str(i + 1)
-            else:
-                string += "1"
-        print(string)
+void strangeLayers(int num)
+{
+	for (int i = 1; i < num + 1; i++)
+	{
+		for (int j = 0; j < num; j++)
+		{
+			if (num - j <= i)
+			{
+				cout << (i);
+			}
+			else
+			{
+				cout << "1";
+			}
+		}
+		cout << endl;
+	}
+}
+
 
 // Problem 11: Palindromes
 
-def palindromes(num):
-    for (unsigned int i = 0; i < (0, num + 2):
-        string = ""
-        toggle = 1
-        for j in range(1, i):
-            string += str(j) + " "
-        for j in range(i - 2, 0, -1):
-            string += str(j) + " "
-        print(string)
+void palindromes(int num)
+{
+	for (int i = 2; i < num + 2; i++)
+	{
+		for (int j = 1; j < i; j++)
+		{
+			cout << j << " ";
+		}
+		for (int j = (i - 2); j > 0; j--)
+		{
+			cout << j << " ";
+		}
+		cout << endl;
+	}
+}
 
 // Problem 12: Hanging by a Thread
 
-def hangingByAThread(num):
-    for (unsigned int i = 0; i < (0, num):
-        string = ""
-        for j in range(1, num + 1):
-            if (j > i):
-                string += str(j)
-            else:
-                string += " "
-        print(string)
-    for (unsigned int i = 0; i < (2, num + 1):
-        string = ""
-        for j in range(1, num + 1):
-            if (j > num - i):
-                string += str(j)
-            else:
-                string += " "
-        print(string)
+void hangingByAThread(int num)
+{
+	for (int i = 0; i < num; i++)
+	{
+		for (int j = 1; j < num + 1; j++) 
+		{
+			if (j > i)
+			{
+				cout << j;
+			}
+			else
+			{
+				cout << " ";
+			}
+		}
+		cout << endl;
+	}
+	for (int i = 2; i < num + 1; i++)
+	{
+		for (int j = 1; j < num + 1; j++)
+		{
+			if (j > num - i)
+			{
+				cout << j;
+			}
+			else
+			{
+				cout << " ";
+			}
+		}
+		cout << endl;
+	}
+}
 
 
 // Problem 13: Vertical Counting
 
-def verticalCounting(num):
-    for (unsigned int i = 0; i < (1, num + 1):
-        string = ""
-        for j in range(0, i):
-            addnum = 0
-            colnum = num
-            for k in range(0, j):
-                addnum += colnum
-                colnum -= 1
-            printnum = (i - j) + addnum
-            string += str(printnum)
-            string += " "
-        print(string)
+void verticalCounting(int num)
+{
+	for (int i = 1; i < num + 1; i++) 
+	{
+		for (int j = 0; j < i; j++)
+		{
+			int addnum = 0;
+			int colnum = num;
+			for (int k = 0; k < j; k++)
+			{
+				addnum += colnum;
+				colnum -= 1;
+			}
+			cout << ((i - j) + addnum) << " ";
+		}
+		cout << endl;
+	}
+}
 
 
 // Problem 14: Even Diamond
 
-import math
+#include <cmath>
 
-def evenDiamond(num):
-    //// Requires Odd Number
-    if (num % 2 == 0): 
-        return 0
-    numbers = 1
-    rate = 2
-    mid = math.ceil(num / 2)
-    for (unsigned int i = 0; i < (0, num):
-        string = ""
-        for j in range(0, num - numbers):
-            string += " "
-        for j in range(0, numbers):
-            string += str(j + 1)
-            string += " "
-        print(string)
-        if i == mid - 1:
-            rate = -rate
-        numbers += rate
+void evenDiamond(int num)
+{
+	if (num % 2 == 0)
+	{
+		return;
+	}
+	int numbers = 1;
+	int rate = 2;
+	int mid = ceil(static_cast<double>(num) / 2.0);
+	for (int i = 0; i < num; i++)
+	{
+		for (int j = 0; j < (num - numbers); j++)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j < numbers; j++)
+		{
+			cout << (j + 1) << " ";
+		}
+		cout << endl;
+		if (i == (mid - 1))
+		{
+			rate = -rate;
+		}
+		numbers += rate;
+	}
+}
 
 // Problem 15: Even Hourglass
 
-import math
+#include <cmath>
 
-def evenHourglass(num):
-    //// Requires Odd Number
-    if (num % 2 == 0): 
-        return 0
-    numbers = num
-    rate = -2
-    mid = math.ceil(num / 2)
-    for (unsigned int i = 0; i < (0, num):
-        string = ""
-        for j in range(0, num - numbers):
-            string += " "
-        for j in range(0, numbers):
-            string += str(j + 1)
-            string += " "
-        print(string)
-        if i == mid - 1:
-            rate = -rate
-        numbers += rate
+void evenHourglass(int num)
+{
+	if (num % 2 == 0)
+	{
+		return;
+	}
+	int numbers = num;
+	int rate = -2;
+	int mid = ceil(static_cast<double>(num) / 2.0);
+	for (int i = 0; i < num; i++)
+	{
+		for (int j = 0; j < (num - numbers); j++)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j < numbers; j++)
+		{
+			cout << (j + 1) << " ";
+		}
+		cout << endl;
+		if (i == (mid - 1))
+		{
+			rate = -rate;
+		}
+		numbers += rate;
+	}
+}
 
 // Problem 16: Offset Diamond
 
-import math
+#include <cmath>
 
-def offsetDiamond(num):
-    numbers = 1
-    rate = 1
-    mid = num - 1
-    for (unsigned int i = 0; i < (0, num * 2 - 1):
-        string = ""
-        for j in range(0, num - numbers):
-            string += " "
-        for j in range(0, numbers):
-            string += str(j + 1)
-            string += " "
-        print(string)
-        if i == mid:
-            rate = -rate
-        numbers += rate
+void offsetDiamond(int num)
+{
+	int numbers = 1;
+	int rate = 1;
+	int mid = num - 1;
+	for (int i = 0; i < num * 2 - 1; i++)
+	{
+		for (int j = 0; j < (num - numbers); j++)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j < numbers; j++)
+		{
+			cout << (j + 1) << " ";
+		}
+		cout << endl;
+		if (i == (mid - 1))
+		{
+			rate = -rate;
+		}
+		numbers += rate;
+	}
+}
 
 // Problem 17: Offset Hourglass
-import math
+#include <cmath>
 
-def offsetHourglass(num):
-    numbers = num
-    rate = -1
-    mid = num - 1
-    for (unsigned int i = 0; i < (0, num * 2 - 1):
-        string = ""
-        for j in range(0, num - numbers):
-            string += " "
-        for j in range(0, numbers):
-            string += str(j + 1)
-            string += " "
-        print(string)
-        if i == mid:
-            rate = -rate
-        numbers += rate
+void offsetDiamond(int num)
+{
+	int numbers = num;
+	int rate = -1;
+	int mid = num - 1;
+	for (int i = 0; i < num * 2 - 1; i++)
+	{
+		for (int j = 0; j < (num - numbers); j++)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j < numbers; j++)
+		{
+			cout << (j + 1) << " ";
+		}
+		cout << endl;
+		if (i == mid)
+		{
+			rate = -rate;
+		}
+		numbers += rate;
+	}
+}
 
 
