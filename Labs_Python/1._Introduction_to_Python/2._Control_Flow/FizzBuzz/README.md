@@ -2,6 +2,8 @@
 
 Fizz Buzz is a counting program in which certain numbers are replaced with different words.
 
+---
+
 ## 1. Details
 
 Write a program that prints the numbers from 1 to 100. 

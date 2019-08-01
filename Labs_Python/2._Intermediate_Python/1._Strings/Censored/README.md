@@ -32,6 +32,6 @@ Or, allowing it to censor two words together, such as `hello there`.
 
 ---
 
-## 3. Solution Links
+## 4. Solution Links
 
 [Solution](./solution.py)

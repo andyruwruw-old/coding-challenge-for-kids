@@ -28,7 +28,7 @@ Finally, the maximum distance that the beam can travel before becoming harmless 
 
 ---
 
-## 4. Example Cases
+## 3. Example Cases
 
 For example, if you and the elite guard were positioned in a room with dimensions [3, 2], your_position [1, 1], guard_position [2, 1], and a maximum shot distance of 4, you could shoot in seven different directions to hit the elite guard (given as vector bearings from your location): [1, 0], [1, 2], [1, -2], [3, 2], [3, -2], [-3, 2], and [-3, -2]. 
 
